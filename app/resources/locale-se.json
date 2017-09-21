@@ -1,26 +1,29 @@
 {
   "index": {
     "menu": {
-      "title": "Delegationsval 2016",
+      "title": "Delegationsval 2017",
       "sign_up": "Logga in",
       "elections": "Rösta",
       "profile": "Egna uppgifter",
       "sign_out": "Logga ut"
-    }
+    },
+    "copyright": "<a href='https://ayy.fi/vaalit'>https://ayy.fi/vaalit</a>",
+    "privacy-policy": "<a href='https://rekisterit.ayy.fi/tietosuojaselosteet/vaalit.pdf'>Registerbeskrivning</a>",
+    "footer-contact": "vaalit@ayy.fi"
   },
 
   "pages": {
     "main": {
       "page_title": "Delegationsval",
       "you_may_check_eligibility":
-        "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Helsingfors universitet före 15.09.2015.",
+        "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Aalto universitet före 15.09.2017.",
       "sign_in_using_university_account":
-        "Logga in med ditt konto vid Helsingfors universitet.",
+        "Logga in med ditt konto vid Aalto universitet.",
       "eligibility_check": "Kontroll av valbarheten",
       "voting_opening_hours": "Röstningen är öppen mellan {{ open }} - {{ close }}.",
       "voting_opens_at": "Röstning öppnar på",
       "voting_has_ended": "Röstning har upphört.",
-      "result_will_be_published_at": "Resultatet publiceras på",
+      "result_will_be_published_at": "Resultatet publiceras på <a href='https://ayy.fi/vaalit'>ayy.fi/vaalit</a>",
       "voting_continues_at": "Omröstningen fortsätter {{ day }} kl {{ time }}",
 
       "button_caption_eligibility": "Kontrollera valbarheten",
@@ -31,21 +34,21 @@
       "no_voting_right": {
         "title": "Ingen Rösträtt",
         "lead": "Din student nummer har ingen rösträtt vid valet.",
-        "body": "Var god kontakta HUS valarbetare i händelse av ett fel.",
+        "body": "Var god kontakta AUS valarbetare i händelse av ett fel.",
         "button_caption": "Återvänd till framsidan"
       },
 
       "invalid_saml_response": {
         "title": "Fel i inloggning",
         "lead": "Samarbetet med inloggningstjänst misslyckades",
-        "body": "Om problemet upprepas, kontakta HUS valarbetare.",
+        "body": "Om problemet upprepas, kontakta AUS valarbetare.",
         "button_caption": "Försök igen"
       },
 
       "general": {
         "title": "Okänt fel",
         "lead": "Något gick fel av okänd anledning.",
-        "body": "Om problemet upprepas, kontakta HUS valarbetare.",
+        "body": "Om problemet upprepas, kontakta AUS valarbetare.",
         "button_caption": "Försök igen"
       }
 
@@ -88,11 +91,11 @@
         "ingress":
           "Ange den e-postadress som du har uppgett i studentregistret, så får du en inloggningslänk.",
         "password_instructions":
-          "Lösenordet skickas bara till en e-postadress som är känd från tidigare. Kolla vilken e-postadress du har angett i studentregistret genom att logga in på <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+          "Lösenordet skickas bara till en e-postadress som är känd från tidigare. Kolla vilken e-postadress du har angett i studentregistret genom att logga in på <a href='https://oodi.aalto.fi'>WebOodi</a>.",
         "spam_instructions":
           "Glöm inte att kolla skräppostlådan i e-posten ifall du inte får någon inloggningslänk.",
         "in_case_of_fire":
-          "I sista hand kan du kontakta HUS valarbetare, <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> eller per telefon +358 50 551 6147.",
+          "I sista hand kan du kontakta AUS valarbetare, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a> tai +358 50 520 9434.",
 
         "attention": "Obs!",
         "election_dates_explained":
@@ -114,7 +117,7 @@
         "something_went_wrong": {
           "detail": "Länken kunde inte skickas.",
           "if_happens_again":
-            "Om problemet upprepas, kontakta HUS valarbetare, vaalit@hyy.fi eller +358 50 551 6147.",
+            "Om problemet upprepas, kontakta AUS valarbetare, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a> tai +358 50 520 9434.",
           "pls_explain":
             "Förklara för valarbetaren vad som gick fel:"
         },
@@ -142,7 +145,7 @@
         "name": "Namn",
         "email": "E-post",
         "phone": "Telefon",
-        "faculty": "Fakultet",
+        "faculty": "Högskola",
         "department": "Institution"
       }
     },
@@ -162,20 +165,24 @@
         "header-number": "Nummer",
         "header-name": "Namn",
         "ingress": "Välj kandidat från listan nedan.",
-        "registration-note": "Din röst är inte registrerad förrän du trycker \"Rösta\".",
+        "registration-note": "Din röst registreras först när du klickar \"Rösta\" och därefter bekräftar din röst genom att klicka \"Bekräfta din röst\".",
         "about-to-change-existing-vote": "Du är på väg att ändra en tidigare gjuten röst. Förändring kommer att spelas in när du klickar på 'Rösta'.",
         "button-submit-caption": "Rösta",
-        "button-submit-confirm": "Tryck igen",
+        "button-submit-confirm": "Bekräfta din röst",
         "submitting": "Röstar .."
       },
 
-      "coalition-index-text": "Koalitioner består av allianser och allianser består av kandidater.",
+      "coalitions": "Valringar",
+	  "coalition-index-text": "Koalitioner består av allianser och allianser består av kandidater.",
       "voting-right-already-used": "Du har redan röstat på",
       "vote-has-been-cast": "Din röst har registrerats!",
       "if-you-are-eligible-in-others": "Om du har rösträtt vid flera val,",
       "choose-next-election": "välj nästa val",
       "close-window-when-finished": "Stäng webbläsarfönstret när du är klar.",
-
+      "voting-failed": "Röstningen misslyckades!",
+      "voting-failed-instructions": "Ladda röstningssidan på nytt med webbläsarens refresh-funktion och försök rösta igen.",
+      "voting-failed-contact": "Om problemet upprepas, kontakta AUS valarbetare Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434",
+	  
       "search": {
         "title": "Sök en kandidat",
         "candidate-name": "Kandidat namn",
@@ -194,7 +201,7 @@
       "sign_up_button_caption": "Det ska vi göra!",
 
       "you_can_vote_in_the_following": "Du kan rösta i följande valen:",
-      "choose_election": "Öppna valet, välj en kandidat och tryck \"rösta\".",
+      "choose_election": "Din röst registreras när du klickar på knappen \"rösta\" efter att ha valt en kandidat och därefter bekräftar din röst genom att klicka på knappen \"Bekräfta din röst\".",
       "submit_vote_help": "Din röst registreras när dy trycker på \"rösta\"-knappen efter att ha valt en kandidat.",
       "vote_is_immutable": "Du kan inte ändra din röst efteråt.",
 
@@ -224,14 +231,15 @@
       "ingress":
         "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 60 medlemmar. Röstberättigade är alla medlemmar i HUS, det vill säga de cirka 27 000 studenterna vid Helsingfors universitet. ",
       "election_dates_explained":
-        "Valdag är {{ firstPeriod }} och {{ secondPeriod }}. Röstning är öppen kl. {{ range }}."
+        "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00."
     },
 
     "contact": {
       "more_info": "Mera information",
-      "hyy_ae_link_caption": "HUS webbsidor om förvaltningsvalet",
-      "hyy_election_link_caption": "HUS webbsidor om valet",
-      "in_case_of_fire": "Vid problem, kontakta HUS valarbetare."
+      "hyy_ae_link_caption": "AUS webbsidor om förvaltningsvalet",
+      "election_link_caption": "AUS webbsidor om valet",
+      "in_case_of_fire": "Vid problem, kontakta AUS valarbetare.",
+      "contact": "Johanna Pietiläinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
     }
   }
 }

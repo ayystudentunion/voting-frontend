@@ -1,26 +1,29 @@
 {
   "index": {
     "menu": {
-      "title": "Council Elections 2016",
+      "title": "Council Elections 2017",
       "sign_up": "Sign Up",
       "elections": "Vote",
       "profile": "Eligibility",
       "sign_out": "Sign Out"
-    }
+    },
+    "copyright": "<a href='https://ayy.fi/vaalit'>https://ayy.fi/vaalit</a>",
+    "privacy-policy": "<a href='https://rekisterit.ayy.fi/tietosuojaselosteet/vaalit.pdf'>Privacy policy</a>",
+    "footer-contact": "vaalit@ayy.fi"
   },
 
   "pages": {
     "main": {
       "page_title": "Council Elections",
       "you_may_check_eligibility":
-        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
+        "You may check your eligibility for the elections by requesting a sign in link. The link will be sent to the email address you have submitted to the Aalto University Student Registry by 15.9.2017.",
       "sign_in_using_university_account":
-        "Sign in using your account of the University of Helsinki.",
+        "Sign in using your Aalto University account.",
       "eligibility_check": "Eligibility for the elections",
       "voting_opening_hours": "Voting is open between {{ open }} - {{ close }}.",
       "voting_opens_at": "Voting opens at",
       "voting_has_ended": "Voting has ended.",
-      "result_will_be_published_at": "Result will be published at",
+      "result_will_be_published_at": "The result will be published at <a href='https://ayy.fi/vaalit'>ayy.fi/vaalit</a>",
       "voting_continues_at": "Voting continues {{ day }} at {{ time }}",
 
       "button_caption_eligibility": "Check Eligibility",
@@ -30,7 +33,7 @@
     "sign_in_error": {
       "no_voting_right": {
         "title": "No Voting Right",
-        "lead": "Your student number does not have a right to vote.",
+        "lead": "Your student number does not have the right to vote.",
         "body": "Please contact the election staff in case of an error.",
         "button_caption": "Return to Frontpage"
       },
@@ -58,7 +61,7 @@
         "title_invalid_key": "Invalid link",
         "lead": "Your sign in link has expired or voting is closed.",
         "private_browsing_note": "Please check that your browser is not in Private Browsing Mode.",
-        "request_new_link": "Reqeust new link",
+        "request_new_link": "Request new link",
 
         "private_browsing_mode": {
           "title": "You're in Private Browsing Mode",
@@ -70,57 +73,56 @@
     },
 
     "sign_up": {
-      "page_title": "Sign Up",
+      "page_title": "Sign In",
       "attention": "Please note!",
-      "voting_days_are": "The voting days are {{ firstPeriod }} and {{ secondPeriod }}",
-      "voting_open_hours_are": "Voting is open between {{ range }} on each voting day.",
-      "primary_button_caption": "Sign Up",
-      "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
+      "voting_days_are": "Voting is open between Mon 30.10. and Wed 8.11. The voting starts on 30.10. at 00:01 and ends on 8.11. at 16:00.",
+      "primary_button_caption": "Sign In",
+      "if_cannot_sign_in": "If you cannot access your university user account or signing in fails for some reason, please contact election staff member Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
 
       "edari": {
-        "eligibility": "You have a voting right if you have enrolled in and paid the member fee of the Student Union. You can sign up to vote by using your Helsinki University user account.",
+        "eligibility": "You have the right to vote if you have enrolled in and paid the membership fee of the Student Union. You can sign up to vote by using your Aalto University user account.",
 
-        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with voting rights. In that case you will receive a message after signing in that you don't have a voting right. Your voting right can be created if you proof your payment of the Student Union's member fee at the office of the Student Union."
+        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with the right to vote. In that case, you will receive a message after signing telling that you do not have the right to vote. A right to vote can be created for you if you provide proof of your payment of the Student Union's membership fee to the Central Office of the Aalto University Student Union."
       },
 
       "request_link": {
         "ingress":
-          "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
+          "Enter the same e-mail address that you have in the University’s student registry, and we will send you a registration link.",
        "password_instructions":
-          "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+          "The password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://oodi.aalto.fi'>WebOodi</a>.",
         "spam_instructions":
-          "In case you didn't receive the link, please also check your spam folder.",
+          "In case you did nott receive the link, please also check your spam folder.",
         "in_case_of_fire":
-          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> or +358 50 551 6147.",
+          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a> or +358 50 520 9434.",
 
-        "attention": "Please Notice:",
+        "attention": "Please Note:",
         "election_dates_explained":
-          "Voting is between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00.",
+          "Voting is open between Tue 15.12.2015 at 9:00-20:00 and Wed 16.12.2015 at 9:00-17:00.",
         "staff_eligibility_note":
-          "Permanent staff of the university are not eligible to vote student members in the administration elections.",
+          "Permanent staff of the university are not eligible to vote for student members in the administration elections.",
         "private_browsing_note":
-          "Ensure that you do not have Private Browsing Mode enabled when you open the sign in link.",
+          "Please make sure that you do not have Private Browsing Mode enabled when you open the sign in link.",
 
         "input_caption_email": "Email",
         "button_caption_submit": "Send me the link",
         "button_caption_submitting": "Sending ..",
 
         "link_has_been_sent":
-          "Link for sign in has been sent!",
+          "Link for signing in has been sent!",
         "pls_check_email":
           "Please follow the instructions in your email and sign in.",
 
         "something_went_wrong": {
           "detail": "We were unable to send you the link.",
           "if_happens_again":
-            "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 50 551 6147.",
+            "If the problem happens again, please contact the election staff of the Student Union <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a> or +358 50 520 9434.",
           "pls_explain":
-            "Please let us know the technical error message:"
+            "Please provide us with the technical error message:"
         },
 
         "errors": {
-          "not_eligible_in_any_election": "You are not eligible in any of the current elections.",
+          "not_eligible_in_any_election": "You are not eligible to vote in any of the current elections.",
           "session_creation_not_permitted": "Voting is closed. You can view the date and time for voting above."
         }
       }
@@ -135,14 +137,14 @@
       "page_title": "Personal Information",
       "ingress": "You have signed in with the following information.",
       "you_are_eligible":
-        "You are eligible in the elections of your faculty and department.",
+        "You are eligible to vote in the elections of your faculty and department.",
       "in_case_of_problem":
         "If there is a problem with your information, please contact the Student Union.",
       "voter": {
         "name": "Name",
         "email": "Email",
         "phone": "Phone",
-        "faculty": "Faculty",
+        "faculty": "School",
         "department": "Department"
       }
     },
@@ -151,10 +153,10 @@
       "page_title": "Vote",
 
       "error": {
-        "something_went_wrong": "Something happened",
+        "something_went_wrong": "Something went wrong",
         "could_not_load_candidates": "Candidates could not be loaded.",
-        "try_again": "Sign out and retry to signing in.",
-        "button_caption": "Try again"
+        "try_again": "Please sign out and try signing in again.",
+        "button_caption": "Please try again"
       },
 
       "vote-ballot": {
@@ -162,40 +164,44 @@
         "header-number": "Number",
         "header-name": "Name",
         "ingress": "Choose a candidate from the list.",
-        "registration-note": "Your vote is not registered until you press \"Vote\".",
-        "about-to-change-existing-vote": "You are about to change a previously cast vote. Change will be recorded after you click 'Vote'.",
+        "registration-note": "Your vote will not be registered until you press \"Vote\" and then confirm your vote by pressing \"Confirm your vote\".",
+        "about-to-change-existing-vote": "You are about to change a previously cast vote. Changes will be recorded after you click 'Vote'.",
         "button-submit-caption": "Vote",
-        "button-submit-confirm": "Press again",
+        "button-submit-confirm": "Confirm your vote",
         "submitting": "Voting .."
       },
 
-      "coalition-index-text": "Coalitions consist of alliances and alliances consist of candidates.",
+      "coalitions": "Electoral coalitions",
+      "coalition-index-text": "Electoral coalitions consist of electoral alliances and electoral alliances consist of candidates.",
       "voting-right-already-used": "You have already voted at",
       "vote-has-been-cast": "Your vote is now recorded!",
       "if-you-are-eligible-in-others": "If you are eligible in multiple elections,",
-      "choose-next-election": "select next election",
+      "choose-next-election": "please select the next election",
       "close-window-when-finished": "You may close the browser window.",
+      "voting-failed": "Voting failed!",
+      "voting-failed-instructions": "Please reload the voting page and try voting again.",
+      "voting-failed-contact": "If the problem persists, please contact election staff member Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434",
 
       "search": {
         "title": "Find a candidate",
         "candidate-name": "Candidate name",
         "header-number": "Number",
         "header-candidate": "Candidate",
-        "browser-search-tip": "You can also use browser's search.",
-        "when-no-results": "Alliances, which did not match your search query, are not displayed."
+        "browser-search-tip": "You can also use the browser's search function.",
+        "when-no-results": "Electoral alliances that did not match your search query are not displayed."
       }
 
     },
 
     "elections": {
       "page_title": "Vote",
-      "sign_in": "Sign in First",
+      "sign_in": "Sign in first",
       "sign_up_please": "You can vote after you have signed in.",
       "sign_up_button_caption": "Let's do it!",
 
       "you_can_vote_in_the_following": "You can vote in the following elections:",
       "choose_election": "Open the election, choose a candidate and press \"vote\".",
-      "submit_vote_help": "Your vote will be registered when you press the \"vote\" button after choosing a candidate.",
+      "submit_vote_help": "Your vote will be registered when you press the \"Vote\" button after choosing a candidate and then confirm your vote by pressing the \"Confirm your vote\" button.",
       "vote_is_immutable": "A cast vote cannot be changed afterwards.",
 
       "table_header": {
@@ -220,18 +226,20 @@
 
   "partials": {
     "info": {
-      "main_title": "HYY Council Elections",
+      "main_title": "AYY Representative Council Elections",
       "ingress":
-        "HYY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All HYY’s members, around 27,000 students at the University of Helsinki, have the right to vote in the elections.",
+        "At the AYY Representative Council Elections, you will select the highest decision-making body of the Student Union, the 45-member Representative Council. All AYY members are eligible to vote, meaning approximately 14,000 Aalto University students.",
       "election_dates_explained":
-        "Election days are {{ firstPeriod }} and {{ secondPeriod }}. Voting is open during {{ range }}."
+        "Voting is open between Mon 30.10. and Wed 8.11. The voting starts on 30.10. at 00:01 and ends on 8.11. at 16:00."
     },
 
     "contact": {
       "more_info": "More information",
       "hyy_ae_link_caption": "Student Union's info page",
-      "hyy_election_link_caption": "Student Union's info page",
-      "in_case_of_fire": "In case of a problem, please contact"
+      "election_link_caption": "Student Union's info page",
+      "in_case_of_fire": "In case of a problem, please contact",
+	  "contact": "Johanna Pietiläinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
     }
   }
 }
+

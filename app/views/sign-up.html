@@ -20,7 +20,7 @@
     </p>
 
     <!-- #NOTE:Contact info -->
-    <p translate translate-values="{ name: 'Silva Loikkanen', email: 'vaalit@hyy.fi', phone: '+358 50 551 6147'}">
+    <p translate>
       .if_cannot_sign_in
     </p>
 
@@ -28,14 +28,8 @@
     <p>
       <strong translate>.attention</strong>
 
-      <li translate
-          translate-values="{ firstPeriod: '26.-28.10.', secondPeriod: '31.10.-2.11.2016' }">
+      <li translate>
           .voting_days_are
-      </li>
-
-      <li translate
-          translate-values="{ range: '10-18' }">
-          .voting_open_hours_are
       </li>
     </p>
 
@@ -97,7 +91,7 @@
             <input
               type="email"
               class="form-control"
-              placeholder="firstname.lastname@helsinki.fi"
+              placeholder="firstname.lastname@aalto.fi"
               required
               ng-disabled="session.loading || session.submitted"
               ng-model="session.email">

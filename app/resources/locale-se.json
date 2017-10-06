@@ -75,10 +75,9 @@
     "sign_up": {
       "page_title": "Logga in",
       "attention": "Obs!",
-      "voting_days_are": "Röstningen pågår {{ firstPeriod }} och {{ secondPeriod }}",
-      "voting_open_hours_are": "Röstningen är öppen mellan {{ range }}.",
+      "voting_days_are": "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00.",
       "primary_button_caption": "Logga in",
-      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare {{ name }}, {{ email }}, {{ phone }}.",
+      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434..",
       "sign_in_is_not_active": "Röstningen är inte öppen just nu.",
 
       "edari": {

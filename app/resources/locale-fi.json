@@ -81,7 +81,7 @@
       "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
 
       "edari": {
-        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut AYYn jäsenmaksun. Voit sisäänkirjautua äänestämään Aalyo-yliopiston käyttäjätunnuksellasi.",
+        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut AYYn jäsenmaksun. Voit sisäänkirjautua äänestämään Aalto-yliopiston käyttäjätunnuksellasi.",
 
         "late_member_note": "Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta AYYn keskustoimistolla."
       },

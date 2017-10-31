@@ -77,7 +77,7 @@
       "attention": "Obs!",
       "voting_days_are": "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00.",
       "primary_button_caption": "Logga in",
-      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434..",
+      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Röstningen är inte öppen just nu.",
 
       "edari": {
@@ -226,9 +226,9 @@
 
   "partials": {
     "info": {
-      "main_title": "HUS delegationsval",
+      "main_title": "AUS delegationsval",
       "ingress":
-        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 60 medlemmar. Röstberättigade är alla medlemmar i HUS, det vill säga de cirka 27 000 studenterna vid Helsingfors universitet. ",
+        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 45 medlemmar. Röstberättigade är alla medlemmar i AUS, det vill säga de cirka 14 000 studenterna vid Aalto-universitet.",
       "election_dates_explained":
         "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00."
     },

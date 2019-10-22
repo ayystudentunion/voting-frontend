@@ -1,13 +1,13 @@
 {
   "index": {
     "menu": {
-      "title": "Delegationsval 2017",
+      "title": "Delegationsval 2019",
       "sign_up": "Logga in",
       "elections": "Rösta",
       "profile": "Egna uppgifter",
       "sign_out": "Logga ut"
     },
-    "copyright": "<a href='https://ayy.fi/vaalit'>https://ayy.fi/vaalit</a>",
+    "copyright": "<a href='https://www.ayy.fi/fi/edustajistovaalit'>https://www.ayy.fi/fi/edustajistovaalit</a>",
     "privacy-policy": "<a href='https://rekisterit.ayy.fi/tietosuojaselosteet/vaalit.pdf'>Registerbeskrivning</a>",
     "footer-contact": "vaalit@ayy.fi"
   },
@@ -16,14 +16,14 @@
     "main": {
       "page_title": "Delegationsval",
       "you_may_check_eligibility":
-        "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Aalto universitet före 15.09.2017.",
+        "Du kan kontrollera din valbarhet genom att beställa en inloggningslänk till den e-postadress som du har meddelat till studentregistret vid Aalto universitet före 15.09.2019.",
       "sign_in_using_university_account":
         "Logga in med ditt konto vid Aalto universitet.",
       "eligibility_check": "Kontroll av valbarheten",
       "voting_opening_hours": "Röstningen är öppen mellan {{ open }} - {{ close }}.",
       "voting_opens_at": "Röstning öppnar på",
       "voting_has_ended": "Röstning har upphört.",
-      "result_will_be_published_at": "Resultatet publiceras på <a href='https://ayy.fi/vaalit'>ayy.fi/vaalit</a>",
+      "result_will_be_published_at": "Resultatet publiceras på <a href='https://www.ayy.fi/fi/edustajistovaalit'>ayy.fi/vaalit</a>",
       "voting_continues_at": "Omröstningen fortsätter {{ day }} kl {{ time }}",
 
       "button_caption_eligibility": "Kontrollera valbarheten",
@@ -77,7 +77,7 @@
       "attention": "Obs!",
       "voting_days_are": "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00.",
       "primary_button_caption": "Logga in",
-      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434.",
+      "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Röstningen är inte öppen just nu.",
 
       "edari": {
@@ -180,7 +180,7 @@
       "close-window-when-finished": "Stäng webbläsarfönstret när du är klar.",
       "voting-failed": "Röstningen misslyckades!",
       "voting-failed-instructions": "Ladda röstningssidan på nytt med webbläsarens refresh-funktion och försök rösta igen.",
-      "voting-failed-contact": "Om problemet upprepas, kontakta AUS valarbetare Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434",
+      "voting-failed-contact": "Om problemet upprepas, kontakta AUS valarbetare Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434",
 	  
       "search": {
         "title": "Sök en kandidat",
@@ -238,7 +238,7 @@
       "hyy_ae_link_caption": "AUS webbsidor om förvaltningsvalet",
       "election_link_caption": "AUS webbsidor om valet",
       "in_case_of_fire": "Vid problem, kontakta AUS valarbetare.",
-      "contact": "Johanna Pietiläinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
+      "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
     }
   }
 }

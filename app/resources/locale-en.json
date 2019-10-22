@@ -1,13 +1,13 @@
 {
   "index": {
     "menu": {
-      "title": "Council Elections 2017",
+      "title": "Council Elections 2019",
       "sign_up": "Sign Up",
       "elections": "Vote",
       "profile": "Eligibility",
       "sign_out": "Sign Out"
     },
-    "copyright": "<a href='https://ayy.fi/vaalit'>https://ayy.fi/vaalit</a>",
+    "copyright": "<a href='https://www.ayy.fi/fi/edustajistovaalit'>https://www.ayy.fi/fi/edustajistovaalit</a>",
     "privacy-policy": "<a href='https://rekisterit.ayy.fi/tietosuojaselosteet/vaalit.pdf'>Privacy policy</a>",
     "footer-contact": "vaalit@ayy.fi"
   },
@@ -16,14 +16,14 @@
     "main": {
       "page_title": "Council Elections",
       "you_may_check_eligibility":
-        "You may check your eligibility for the elections by requesting a sign in link. The link will be sent to the email address you have submitted to the Aalto University Student Registry by 15.9.2017.",
+        "You may check your eligibility for the elections by requesting a sign in link. The link will be sent to the email address you have submitted to the Aalto University Student Registry by 15.9.2019.",
       "sign_in_using_university_account":
         "Sign in using your Aalto University account.",
       "eligibility_check": "Eligibility for the elections",
       "voting_opening_hours": "Voting is open between {{ open }} - {{ close }}.",
       "voting_opens_at": "Voting opens at",
       "voting_has_ended": "Voting has ended.",
-      "result_will_be_published_at": "The result will be published at <a href='https://ayy.fi/vaalit'>ayy.fi/vaalit</a>",
+      "result_will_be_published_at": "The result will be published at <a href='https://www.ayy.fi/fi/edustajistovaalit'>ayy.fi/vaalit</a>",
       "voting_continues_at": "Voting continues {{ day }} at {{ time }}",
 
       "button_caption_eligibility": "Check Eligibility",
@@ -77,7 +77,7 @@
       "attention": "Please note!",
       "voting_days_are": "Voting is open between Mon 30.10. and Wed 8.11. The voting starts on 30.10. at 00:01 and ends on 8.11. at 16:00.",
       "primary_button_caption": "Sign In",
-      "if_cannot_sign_in": "If you cannot access your university user account or signing in fails for some reason, please contact election staff member Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434.",
+      "if_cannot_sign_in": "If you cannot access your university user account or signing in fails for some reason, please contact election staff member Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
 
       "edari": {
@@ -180,7 +180,7 @@
       "close-window-when-finished": "You may close the browser window.",
       "voting-failed": "Voting failed!",
       "voting-failed-instructions": "Please reload the voting page and try voting again.",
-      "voting-failed-contact": "If the problem persists, please contact election staff member Johanna Pietiläinen, vaalit@ayy.fi, +358 50 520 9434",
+      "voting-failed-contact": "If the problem persists, please contact election staff member Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434",
 
       "search": {
         "title": "Find a candidate",
@@ -238,7 +238,7 @@
       "hyy_ae_link_caption": "Student Union's info page",
       "election_link_caption": "Student Union's info page",
       "in_case_of_fire": "In case of a problem, please contact",
-	  "contact": "Johanna Pietiläinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
+	  "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
     }
   }
 }

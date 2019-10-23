@@ -1,0 +1,243 @@
+{
+  "index": {
+    "menu": {
+      "title": "Edustajistovaalit 2019",
+      "sign_up": "Kirjaudu",
+      "elections": "Äänestä",
+      "profile": "Omat Tiedot",
+      "sign_out": "Poistu"
+    },
+    "copyright": "<a href='https://www.ayy.fi/fi/edustajistovaalit'>https://www.ayy.fi/fi/edustajistovaalit</a>",
+    "privacy-policy": "<a href='https://rekisterit.ayy.fi/tietosuojaselosteet/vaalit.pdf'>Rekisteriseloste</a>",
+    "footer-contact": "vaalit@ayy.fi"
+  },
+
+  "pages": {
+    "main": {
+      "page_title": "Edustajistovaalit",
+      "you_may_check_eligibility":
+        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2019 mennessä Aalto-yliopiston opiskelijarekisteriin.",
+      "sign_in_using_university_account":
+        "Kirjaudu sisään Aalto-yliopiston käyttäjätunnuksellasi.",
+      "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
+      "voting_opening_hours": "Äänestäminen on avoinna klo {{ open }} - {{ close }}.",
+      "voting_opens_at": "Äänestäminen avautuu",
+      "voting_has_ended": "Äänestys on päättynyt",
+      "result_will_be_published_at": "Tulos julkistetaan osoitteessa <a href='https://www.ayy.fi/fi/edustajistovaalit'>ayy.fi/vaalit</a>",
+      "voting_continues_at": "Äänestys jatkuu {{ day }} klo {{ time }}",
+
+      "button_caption_eligibility": "Tarkasta vaalikelpoisuus",
+      "button_caption_vote": "Äänestämään!"
+    },
+
+    "sign_in_error": {
+      "no_voting_right": {
+        "title": "Ei äänioikeutta",
+        "lead": "Opiskelijanumerollasi ei ole äänioikeutta.",
+        "body": "Ongelmatilanteessa ota yhteys AYYn vaalityöntekijään.",
+        "button_caption": "Palaa etusivulle"
+      },
+
+      "invalid_saml_response": {
+        "title": "Kirjautumisvirhe",
+        "lead": "Yhteistyö yliopiston kirjautumispalvelun kanssa epäonnistui.",
+        "body": "Jos ongelma ei poistu uudella yrityksellä, ota yhteys AYYn vaalityöntekijään.",
+        "button_caption": "Yritä uudelleen"
+      },
+
+      "general": {
+        "title": "Tuntematon virhe",
+        "lead": "Jotain meni tuntemattomasta syystä pieleen.",
+        "body": "Ongelmatilanteessa ota yhteys AYYn vaalityöntekijään.",
+        "button_caption": "Yritä uudelleen"
+      }
+
+    },
+
+    "sign_in": {
+      "loading": "Ladataan",
+
+      "error": {
+        "title_invalid_key": "Avain ei kelpaa",
+        "lead": "Sisäänkirjautumislinkkisi on vanhentunut tai äänestys on suljettu.",
+        "private_browsing_note": "Tarkista myös, ettei selaimesi ole Private Browsing tilassa.",
+        "request_new_link": "Pyydä uusi linkki",
+
+        "private_browsing_mode": {
+          "title": "Selaimesi on yksityistilassa",
+          "lead": "Selaimesi käyttää \"Private Browsing Mode\" -yksityisyysasetusta, mikä estää vaalijärjestelmän toiminnan.",
+          "what_now": "Avaa sisäänkirjautumislinkki tavallisessa selainikkunassa."
+        }
+
+      }
+    },
+
+    "sign_up": {
+      "page_title": "Kirjaudu sisään",
+      "attention": "Huom!",
+      "voting_days_are": "Äänestyspäivät ovat maanantai 30.10. - keskiviikko 8.11. Äänestysaika alkaa 30.10. kello 00.01 ja päättyy 8.11. kello 16.00.",
+      "primary_button_caption": "Kirjaudu sisään",
+      "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys AYYn vaalityöntekijään Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434.",
+      "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
+
+      "edari": {
+        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut AYYn jäsenmaksun. Voit sisäänkirjautua äänestämään Aalto-yliopiston käyttäjätunnuksellasi.",
+
+        "late_member_note": "Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta AYYn keskustoimistolla."
+      },
+
+      "request_link": {
+        "ingress":
+          "Anna opiskelijarekisteriin tallentamasi sähköpostiosoite, niin sinulle lähetetään sisäänkirjautumislinkki.",
+        "password_instructions":
+          "Salasana lähetetään ainoastaan ennalta tunnettuun sähköpostiosoitteeseen. Tarkista opiskelijarekisteriin antamasi sähköpostiosoitteesi <a href='https://oodi.aalto.fi'>kirjautumalla WebOodiin</a>.",
+        "spam_instructions":
+          "Tarkista myös sähköpostisi roskapostikansio, mikäli et saa sisäänkirjautumislinkkiä.",
+        "in_case_of_fire":
+          "Viime kädessä ota yhteys AYYn vaalityöntekijään <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a> tai +358 50 520 9434.",
+
+        "attention": "Huom!",
+        "election_dates_explained":
+          "Äänestys on auki ti 15.12.2015 klo 9:00 - 20:00 ja ke 16.12.2015 klo 9:00 - 17:00 välisenä aikana.",
+        "staff_eligibility_note":
+          "Vakituiseen henkilökuntaan kuuluvilla ei ole äänioikeutta hallinnon opiskelijaedustajien vaalissa.",
+        "private_browsing_note":
+          "Varmista, ettei selaimesi ole Private Browsing tilassa, kun avaat linkin.",
+
+        "input_caption_email": "Sähköposti",
+        "button_caption_submit": "Lähetä sisäänkirjautumislinkki",
+        "button_caption_submitting": "Lähetetään ..",
+
+        "link_has_been_sent":
+          "Sisäänkirjautumislinkki on lähetetty antamaasi osoitteeseen!",
+        "pls_check_email":
+          "Kirjaudu sisään noudattamalla sähköpostiosoiteeseesi lähetettyjä ohjeita.",
+
+        "something_went_wrong": {
+          "detail": "Linkkiä ei voitu lähettää.",
+          "if_happens_again":
+            "Jos ongelma toistuu, ota yhteys AYYn vaalityöntekijään vaalit@ayy.fi +358 50 520 9434.",
+          "pls_explain":
+            "Kerro vaalityöntekijälle virheen tekninen syy:"
+        },
+
+        "errors": {
+          "not_eligible_in_any_election": "Sinulla ei ole äänioikeutta yhteenkään vaaliin.",
+          "session_creation_not_permitted": "Äänestys ei ole avoinna. Näet äänestämisen aukiolon päivämäärän ja kellonajan yllä."
+        }
+      }
+    },
+
+    "sign_out": {
+      "page_title": "Olet kirjautunut ulos",
+      "ingress": "Voit sulkea selainikkunan."
+    },
+
+    "profile": {
+      "page_title": "Omat tiedot",
+      "ingress": "Olet kirjautunut sisään seuraavin tiedoin.",
+      "you_are_eligible":
+        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 5 §).",
+      "in_case_of_problem":
+        "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
+      "voter": {
+        "name": "Nimi",
+        "email": "Email",
+        "phone": "Puhelin",
+        "faculty": "Korkeakoulu",
+        "department": "Laitos"
+      }
+    },
+
+    "vote": {
+      "page_title": "Äänestä",
+
+      "error": {
+        "something_went_wrong": "Kävi hassusti",
+        "could_not_load_candidates": "Ehdokastietojen lataaminen epäonnistui.",
+        "try_again": "Kirjaudu ulos ja yritä kirjautua uudelleen sisään.",
+        "button_caption": "Yritä uudelleen"
+      },
+
+      "vote-ballot": {
+        "title": "Äänestyslippu",
+        "header-number": "Numero",
+        "header-name": "Nimi",
+        "ingress": "Valitse ehdokas alla olevasta listasta.",
+        "registration-note": "Äänesi kirjataan vasta, kun painat \"Äänestä\" ja tämän jälkeen vahvistat äänesi painamalla \"Vahvista äänesi\".",
+        "about-to-change-existing-vote": "Olet muuttamassa aiemmin antamaasi ääntä. Muutos kirjataan vasta kun painat 'Äänestä'.",
+        "button-submit-caption": "Äänestä",
+        "button-submit-confirm": "Vahvista äänesi",
+        "submitting": "Äänestetään .."
+      },
+
+      "coalitions": "Vaalirenkaat",
+      "coalition-index-text": "Vaalirenkaat koostuvat vaaliliitoista ja vaaliliitot koostuvat ehdokkaista.",
+      "voting-right-already-used": "Olet jo käyttänyt äänioikeutesi",
+      "vote-has-been-cast": "Äänesi on kirjattu!",
+      "if-you-are-eligible-in-others": "Jos sinulla on äänioikeus useassa vaalissa,",
+      "choose-next-election": "valitse seuraava vaali",
+      "close-window-when-finished": "Sulje lopuksi selainikkuna.",
+      "voting-failed": "Äänestäminen epäonnistui!",
+      "voting-failed-instructions": "Lataa äänestyssivu uudelleen selaimen refresh-toiminnolla ja yritä äänestää uudelleen.",
+      "voting-failed-contact": "Jos ongelma toistuu, ota yhteys AYYn vaalityöntekijään Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434",
+
+      "search": {
+        "title": "Hae ehdokasta",
+        "candidate-name": "Ehdokasnimi",
+        "header-number": "Numero",
+        "header-candidate": "Ehdokas",
+        "browser-search-tip": "Voit käyttää myös selaimen hakutoimintoa.",
+        "when-no-results": "Vaaliliitot, jotka eivät vastanneet hakuehtoasi, eivät ole näkyvissä."
+      }
+    },
+
+    "elections": {
+      "page_title": "Äänestä",
+      "sign_in": "Sisäänkirjaudu",
+      "sign_up_please": "Pääset äänestämään sen jälkeen, kun olet kirjautunut sisään.",
+      "sign_up_button_caption": "Aloitetaan!",
+
+      "you_can_vote_in_the_following": "Voit äänestää seuraavissa vaaleissa:",
+      "choose_election": "Avaa vaali, valitse ehdokas ja paina \"äänestä\".",
+      "submit_vote_help": "Äänesi rekisteröidään, kun painat ehdokkaan valitsemisen jälkeen \"äänestä\"-nappia ja tämän jälkeen vahvistat äänesi painamalla \"Vahvista äänesi\"-nappia.",
+      "vote_is_immutable": "Et voi muuttaa antamaasi ääntä jälkikäteen.",
+
+      "table_header": {
+        "election_name": "Vaalin nimi",
+        "status": "Äänestetty"
+      },
+
+      "not_started": {
+        "voting_has_not_started_yet": "Äänestäminen ei ole vielä alkanut."
+      },
+
+      "empty": {
+        "no_elections_available": "Sinulla ei ole äänioikeutta yhteenkään vaaliin."
+      }
+    }
+
+  },
+
+  "common": {
+    "loading": "Ladataan"
+  },
+
+  "partials": {
+    "info": {
+      "main_title": "AYYn edustajistovaalit",
+      "ingress":
+        "AYYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 45-henkinen edustajisto. Äänioikeutettuja ovat AYYn jäsenet eli noin 14 000 Aalto-yliopiston opiskelijaa.",
+      "election_dates_explained":
+        "Äänestyspäivät ovat maanantai 30.10. - keskiviikko 8.11. Äänestysaika alkaa 30.10. klo 00.01 ja päättyy 8.11. klo 16.00."
+    },
+
+    "contact": {
+      "more_info": "Lisätietoa",
+      "hyy_ae_link_caption": "HYYn hallintovaalisivusto",
+      "election_link_caption": "AYYn vaalisivusto",
+      "in_case_of_fire": "Ongelmatilanteessa ota yhteys AYYn vaalityöntekijään",
+      "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "voting-frontend-dist"]
+	path = voting-frontend-dist
+	url = git@github.com:ayystudentunion/voting-frontend-dist.git

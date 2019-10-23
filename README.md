@@ -2,18 +2,25 @@
 
 ## Prerequisites
 
-- Install Node 0.12 with NVM
-- `npm install -g grunt-cli bower yo generator-karma generator-angular`
 - Install RVM
 - After installing RVM, let RVM install Ruby version defined in .ruby-version (chdir out & back from project directory).
 - `gem install bundler`
+- `bundle install` (this will install compass, see `Gemfile`)
+
+- [Install nodenv](https://github.com/nodenv/nodenv)
+- Install Node version defined in `.node-version`
+  - nodenv install 10.12.0
 
 ## Setup
 
 ~~~
+npm install -g yarn bower grunt-cli yo
+
 bundle install
-npm install
+yarn install
 bower install
+
+git submodule update --init
 ~~~
 
 ## Configuration
@@ -34,12 +41,17 @@ Run `grunt serve` and access http://localhost:9000
 ### Accessing the local web server
 
 - You will need a valid JWT Access Token from the API:
-  - (in API) `rake jwt:voter:generate`
+  - In voting-api, generate an example JWT_ACCESS_TOKEN: `rake jwt:voter:generate`
   - open http://localhost:9000/#/sign-in?token=JWT_ACCESS_TOKEN
   - See API's README for details.
-
-- When the development API is running, you will have TWO frontends available: one served locally by `grunt serve` (localhost:9000) and the one which is served by Rails from `API/public` folder (localhost:3000). Use only either of them at the same time.
-  * If you need to access localhost:3000 (ie. `API/public` served by Rails), prevent confusion by *not* running `grunt serve` at the same time. :)
+  - Note that your frontend's development server runs on port 9000,
+    and the voting-api's Rails server runs on port 3000.
+- When the voting-api `rails s` is running, you will have TWO frontends available:
+  - one served locally by `grunt serve` (localhost:9000)
+  - and the one which is served by Rails from `voting-api/public` folder
+    (localhost:3000). Use only either of them at the same time.
+  - If you need to access localhost:3000 (ie. `voting-api/public` served by
+    Rails), prevent confusion by *not* running `grunt serve` at the same time. :)
 
 - See `app/scripts/app.coffee` for application routes.
 
@@ -80,6 +92,7 @@ git submodule add git@github.com:pre/hyy-voting-frontend-dist.git
 ```bash
 # Update code in Frontend's git submodule (for each deploy)
 (in Frontend) bin/distribute.sh
+(in Frontend) git push
 
 # Update API's git submodule to apply Frontend's new code
 (in API) cd public
@@ -94,7 +107,14 @@ In API/public, `git log` should now display 'Theme of this deploy' as the newest
 ```
 
 
-## Tips
+## Tips & Troubleshooting
+
+* After bin/distribute.sh - if you get `fatal: in unpopulated submodule 'dist'`
+  you haven't cloned the git submodule. The build now created naked files under
+  the `dist/` folder.
+  * Remove the `dist/` folder (`rm -fr dist/`)
+  * Refresh the git submodule `git submodule update --init`
+  * Try again with distribute.sh
 
 * If you get error `Unknown provider: xyzProvider <- xyz <- XyzCtrl`,
   add `<script src="..../xyz.js">` to the bottom of `app/index.html`.

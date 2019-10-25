@@ -75,7 +75,7 @@
     "sign_up": {
       "page_title": "Kirjaudu sisään",
       "attention": "Huom!",
-      "voting_days_are": "Äänestyspäivät ovat maanantai 28.10. - tiistai 5.11. Äänestysaika alkaa 28.10. kello 12.01 ja päättyy58.11. kello 16.00.",
+      "voting_days_are": "Ennakkoäänestys alkaa maanantaina 28.10.2019 klo 12.00 ja päättyy torstaina 31.10.2019 klo 23.59. Varsinainen äänestys alkaa perjantaina 1.11.2019 klo 00.01 ja päättyy tiistaina 5.11.2019 klo 16.00.",
       "primary_button_caption": "Kirjaudu sisään",
       "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys AYYn vaalityöntekijään Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
@@ -227,9 +227,9 @@
     "info": {
       "main_title": "AYYn edustajistovaalit",
       "ingress":
-        "AYYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 45-henkinen edustajisto. Äänioikeutettuja ovat AYYn jäsenet eli noin 14 000 Aalto-yliopiston opiskelijaa.",
+        "AYYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 45-henkinen edustajisto. Äänioikeutettuja ovat AYYn jäsenet eli noin 14 000 Aalto-yliopiston opiskelijaa.<br> <a href='https://apps.myzef.com/resources/syl/hgtjjl/index.html'>AYY:n edustajistovaalikone </a>",
       "election_dates_explained":
-        "Äänestyspäivät ovat maanantai 30.10. - keskiviikko 8.11. Äänestysaika alkaa 30.10. klo 00.01 ja päättyy 8.11. klo 16.00."
+        "Ennakkoäänestys alkaa maanantaina 28.10.2019 klo 12.00 ja päättyy torstaina 31.10.2019 klo 23.59. Varsinainen äänestys alkaa perjantaina 1.11.2019 klo 00.01 ja päättyy tiistaina 5.11.2019 klo 16.00."
     },
 
     "contact": {
@@ -237,7 +237,7 @@
       "hyy_ae_link_caption": "HYYn hallintovaalisivusto",
       "election_link_caption": "AYYn vaalisivusto",
       "in_case_of_fire": "Ongelmatilanteessa ota yhteys AYYn vaalityöntekijään",
-      "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
+      "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a>, +358 50 520 9434"
     }
   }
 }

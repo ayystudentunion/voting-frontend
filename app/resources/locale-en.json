@@ -75,7 +75,7 @@
     "sign_up": {
       "page_title": "Sign In",
       "attention": "Please note!",
-      "voting_days_are": "Voting is open between Mon 30.10. and Wed 8.11. The voting starts on 30.10. at 00:01 and ends on 8.11. at 16:00.",
+      "voting_days_are": "Early voting will begin on Monday the 28th of October 2019 at 12.00 and end on Thursday the 31st of October at 23.59. The official voting period will begin on Friday the 1st of November at 00.01 and end on Tuesday the 5th of November at 16.00.",
       "primary_button_caption": "Sign In",
       "if_cannot_sign_in": "If you cannot access your university user account or signing in fails for some reason, please contact election staff member Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
@@ -228,9 +228,9 @@
     "info": {
       "main_title": "AYY Representative Council Elections",
       "ingress":
-        "At the AYY Representative Council Elections, you will select the highest decision-making body of the Student Union, the 45-member Representative Council. All AYY members are eligible to vote, meaning approximately 14,000 Aalto University students.",
+        "At the AYY Representative Council Elections, you will select the highest decision-making body of the Student Union, the 45-member Representative Council. All AYY members are eligible to vote, meaning approximately 14,000 Aalto University students.<br><a href='https://apps.myzef.com/resources/syl/hgtjjl/index.html'>AYY Representative Council Elections Candidate Matcher</a>",
       "election_dates_explained":
-        "Voting is open between Mon 30.10. and Wed 8.11. The voting starts on 30.10. at 00:01 and ends on 8.11. at 16:00."
+        "Early voting will begin on Monday the 28th of October 2019 at 12.00 and end on Thursday the 31st of October at 23.59. The official voting period will begin on Friday the 1st of November at 00.01 and end on Tuesday the 5th of November at 16.00."
     },
 
     "contact": {
@@ -238,7 +238,7 @@
       "hyy_ae_link_caption": "Student Union's info page",
       "election_link_caption": "Student Union's info page",
       "in_case_of_fire": "In case of a problem, please contact",
-	  "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
+	  "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a>, +358 50 520 9434"
     }
   }
 }

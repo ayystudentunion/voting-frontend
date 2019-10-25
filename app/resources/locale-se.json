@@ -75,7 +75,7 @@
     "sign_up": {
       "page_title": "Logga in",
       "attention": "Obs!",
-      "voting_days_are": "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00.",
+      "voting_days_are": "Förhandsröstningstiden under röstningsdagarna inleds måndagen 28.10.2019 kl. 12.00 och avslutas torsdagen 31.10.2019 kl. 23.59. Röstningstiden under röstningsdagarna inleds fredagen 1.11.2019 kl. 00.01 och avslutas tisdagen 5.11.2019 kl. 16.00.",
       "primary_button_caption": "Logga in",
       "if_cannot_sign_in": "Om du inte kan få tillgång till universitets användarkonto eller loggning in misslyckas av någon anledning, kontakta valarbetare Annika Mällinen, vaalit@ayy.fi, +358 50 520 9434.",
       "sign_in_is_not_active": "Röstningen är inte öppen just nu.",
@@ -228,9 +228,9 @@
     "info": {
       "main_title": "AUS delegationsval",
       "ingress":
-        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 45 medlemmar. Röstberättigade är alla medlemmar i AUS, det vill säga de cirka 14 000 studenterna vid Aalto-universitet.",
+        "I delegationsvalet väljs studentkårens högsta beslutande organ, delegationen, som har 45 medlemmar. Röstberättigade är alla medlemmar i AUS, det vill säga de cirka 14 000 studenterna vid Aalto-universitet.<br> <a href='https://apps.myzef.com/resources/syl/hgtjjl/index.html'>AUS Valkompass</a>",
       "election_dates_explained":
-        "Röstningsdagarna är måndag 30.10 - onsdag 8.11. röstningstiden inleds 30.10 kl. 00.01 och avslutas 8.11 kl. 16.00."
+        "Förhandsröstningstiden under röstningsdagarna inleds måndagen 28.10.2019 kl. 12.00 och avslutas torsdagen 31.10.2019 kl. 23.59. Röstningstiden under röstningsdagarna inleds fredagen 1.11.2019 kl. 00.01 och avslutas tisdagen 5.11.2019 kl. 16.00."
     },
 
     "contact": {
@@ -238,7 +238,7 @@
       "hyy_ae_link_caption": "AUS webbsidor om förvaltningsvalet",
       "election_link_caption": "AUS webbsidor om valet",
       "in_case_of_fire": "Vid problem, kontakta AUS valarbetare.",
-      "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi, +358 50 520 9434"
+      "contact": "Annika Mällinen, <a href='mailto:vaalit@ayy.fi'>vaalit@ayy.fi</a>, +358 50 520 9434"
     }
   }
 }
